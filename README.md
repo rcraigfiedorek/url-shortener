@@ -38,6 +38,10 @@ I wrote code for this API as naively towards database deployment as possible, on
 
 Intelligent load balancing is essential for ensuring that computing resources can be scaled to accomodate future changes to the volume of requests that must be handled. This can be managed by a reverse proxy like Nginx or by a cloud provider service.
 
+### CI/CD
+
+Continuous integration ensures that the product is robust in its behavior under future changes. Continuous delivery ensures that the product served to customers is fully up-to-date with latest development and releases. I am most well-versed in Github Actions as a CI/CD solution. Thorough unit and system testing of the application is a prerequisite of robust CI/CD solutions.
+
 ## Proposed deployment solutions
 
 If tasked with deploying this API with the following constraints:
