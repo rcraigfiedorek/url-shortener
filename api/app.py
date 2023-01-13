@@ -1,11 +1,13 @@
-from datetime import datetime
+import os
 import random
 import string
-import os
-from api.schemas import SubmitUrlInput, UrlStatsOutput
+from datetime import datetime
+
 from apiflask import APIFlask
-from database import db, UrlModel
 from flask import redirect
+
+from api.schemas import SubmitUrlInput, UrlStatsOutput
+from database import UrlModel, db
 
 app = APIFlask(
     __name__,
